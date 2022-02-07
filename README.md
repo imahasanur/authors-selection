@@ -1,6 +1,6 @@
 # completed assessment Assignment using React Typescript
 
-Live site Link [assessment](https://peaceful-franklin-c0bba3.netlify.app/).
+Live site Link [assessment](https://authors-selection.firebaseapp.com/).
 
 ## Used Technology
 
