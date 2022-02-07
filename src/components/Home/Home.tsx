@@ -1,11 +1,12 @@
 import React from 'react';
-import Header from '../common/Header/Header';
+import AuthorsList from '../AuthorsList/AuthorsList';
 import './Home.css';
 
 const Home = () => {
+
     return (
         <>
-          <Header></Header>  
+            <AuthorsList />
         </>
     );
 };

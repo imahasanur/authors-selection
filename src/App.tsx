@@ -1,12 +1,17 @@
 import './App.css';
-import Header from './components/common/Header/Header';
+import { AuthorActions } from './components/AuthorsList/AuthorsList';
 import AppRouter from './router/AppRouter';
 
+
 function App() {
+  const actions = {
+    handleAddAuthor: function (_id: string) { },
+    handleDeleteAuthor: function (_id: string) { }
+  }
   return (
-    <>
+    <AuthorActions.Provider value={actions}>
       <AppRouter />
-    </>
+    </AuthorActions.Provider>
   );
 }
 
